@@ -7,3 +7,5 @@ R.V. Solé et. al. TREE 1999". The goal is to show the power of non-linear inter
  
 The results of the program are shown in fraction of sick population *p* against the infecting ratio *β*. Over hundred realisations over the same infecting ratio have been done to avoid stochasticity when computing each *p*. The expected results will have two different regions separated by a critical value of *β*. Before this critical value the infected population ratio will be zero. At about *β*=0.4 the infection no longer dissipates and *p* starts to grow monotonically when increasing *β*. This is somehow an unexpected results because one could very well predict a linear increase in *p* when increasing the infected ratio even at low values. Here it is shown that the non-linear interactions are strong when treating complex systems, even as simple as the one in this model.
  
+# Contact
+sergivilardell13@gmail.com
