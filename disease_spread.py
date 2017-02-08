@@ -69,59 +69,6 @@ while(beta<=1):
 f.close()
 
 
-#CHANGE LINES 22 TO 64 WITH THE CODE BELOW FOR FIXED EXTREMES CONDITION
-		# 	#infection function
-		# 	for n in range (N):
-		# 		peasant[n][t+1]=peasant[n][t]
-
-		# 	if peasant[0][t]==1 and uniform(0.0,1.0) <= beta:
-		# 		peasant[1][t+1]= peasant[1][t]+ 2
-
-		# 	if peasant[0][t+1] == 1 and uniform(0.0 , 1.0) <= beta:
-		# 		peasant[1][t+1] = peasant[1][t]+2
-		# 	#for the rest
-		# 	for i in range(1,N-1):
-		# 		if peasant[i][t]==1 and uniform(0.0,1.0)<= beta:
-		# 			peasant[i-1][t+1]= peasant[i-1][t] + 2
-		# 			peasant[i+1][t+1]= peasant[i+1][t] + 2
-		# 	#for the Nth peasant
-		# 	if peasant[N-1][t+1] == 1 and uniform(0.0 , 1.0) <= beta:
-		# 		peasant[N-2][t+1] = peasant[N-2][t]+ 2
-		# 	for n in range (N):
-		# 		if peasant[n][t+1]==1 and uniform(0.0, 1.0)< 0.5:
-		# 			peasant[n][t+1]=0
-		# 		if peasant[n][t+1]==2 or peasant[n][t+1]==3:
-		# 			peasant[n][t+1]=1
-
-		# healthy=0.0
-		# infected=0.0
-
-		# for n in range (N):
-		# 	if peasant[n][T-1]==0:
-		# 		healthy = healthy + 1.0
-		# 	else:
-		# 		infected = infected +1.0
-
-
-	# 	healthy=0.0
-	# 	infected=0.0
-
-	# 	for n in range (N):
-	# 		if peasant[n][T-1]==0:
-	# 			healthy = healthy + 1.0
-	# 		else:
-	# 			infected = infected +1.0
-	# 	ratio=infected/250.0
-
-	# 	ratio_average=ratio_average+ratio
-
-	# ratio_average=(ratio_average)/100.0
-
-	# f.write("%f %f\n"%(beta,ratio_average))
-	# ratio_average = 0
-	# beta=beta+0.01
-	# print (beta)
-
 
 
 
